@@ -29,9 +29,9 @@ public bool Checkout(User user)
 }
 ```
 ## Usage
--Create a new Cart and add items.
--Create an EcommerceCheckout instance with the cart.
--Call the Checkout method to process the payment.
+- Create a new Cart and add items.
+- Create an EcommerceCheckout instance with the cart.
+- Call the Checkout method to process the payment.
 ```csharp
 Cart cart = new Cart();
 cart.AddItem(new Item("Book", 10.99m));
